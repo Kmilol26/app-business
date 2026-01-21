@@ -33,7 +33,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
     setState(() => _isLoading = true);
 
-    // TODO: Implementar registro real con Firebase
+    // TODO: Implementar registro real
     await Future.delayed(const Duration(seconds: 1));
 
     if (mounted) {
